@@ -2,11 +2,10 @@ body {
   background: linear-gradient(to right, #154458, #196b86, #566870); /* dark blue gradient */
 }
 
-
 :root {
-  
   --text-color: hsl(0, 0%, 100%);
 }
+
 body {
   margin: 0;
 }
@@ -174,4 +173,35 @@ p {
   color: #666;
   font-size: 20px;
   animation: fadeIn 2s;
+}
+
+@media (max-width: 768px) { /* For mobile devices */
+  .display-3 {
+    font-size: 30px; /* Smaller font size for mobile */
+  }
+  
+  .display-4 {
+    font-size: 20px; /* Smaller font size for mobile */
+  }
+
+  .section {
+    padding: 10px; /* Less padding for mobile */
+  }
+
+  .lead {
+    font-size: 20px; /* Smaller font size for mobile */
+  }
+
+  span {
+    font-size: 24px; /* Smaller font size for mobile */
+  }
+
+  p {
+    font-size: 16px; /* Smaller font size for mobile */
+  }
+  
+  .container-names {
+    flex-direction: column; /* Stacking names vertically on smaller screens */
+    align-items: center;
+  }
 }
