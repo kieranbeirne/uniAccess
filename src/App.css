@@ -199,6 +199,10 @@ p {
   p {
     font-size: 16px; /* Smaller font size for mobile */
   }
+
+  h2 {
+    font-size: 24px; /* Smaller font size for mobile */
+  }
   
   .container-names {
     flex-direction: column; /* Stacking names vertically on smaller screens */
