@@ -1,38 +1,177 @@
-.App {
+body {
+  background: linear-gradient(to right, #154458, #196b86, #566870); /* dark blue gradient */
+}
+
+
+:root {
+  
+  --text-color: hsl(0, 0%, 100%);
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+  place-content: center;
+  background-color: var(--background-color);
+  min-height: 25vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 10rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.wrapper > div {
+  grid-area: 1/1/-1/-1;
+}
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+.bottom {
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  color: transparent;
+  background: -webkit-linear-gradient(177deg, var(--text-color) 65% var(--text-color) 65%);
+  background: linear-gradient(177deg, rgb(204, 199, 199) 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-0.02em);
+}
+
+
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.container-lg {
+  max-width: 100%;
+  margin: auto;
+}
+
+.display-3 {
+  font-size: 50px;
+  color: #ff9966;
+  text-shadow: 2px 2px 4px #000000;
+  transition: all 1s ease;
+  animation: bounce 5s infinite, colorChange 10s infinite;
   text-align: center;
+  font-size: 62px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display-3:hover {
+  color: #ff5e62;
+  text-shadow: 2px 2px 4px #ff0000;
+  transform: scale(1.1);
+  animation: bounce 5s infinite, colorChange 10s infinite;
+  text-align: center;
+  font-size: 82px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* We’ll set some colors and center everything. */
+
+body {
+  color: #99eeb4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-names {
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+}
+
+.column {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  position: relative;
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.05em;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: attr(filter-content);
+  filter: url(#motion-blur-filter);
+}
+
+svg {
+  display: none;
+}
+
+
+
+.lead {
+  color: #fff;
+  text-align: center;
+  font-size: 39px;
+  animation: fadeIn 2s;
+}
+
+.section {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  animation: slideIn 2s;
+}
+
+.display-4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 29px;
+}
+
+@keyframes slideIn {
+  from {transform: translateX(-100%);}
+  to {transform: translateX(0);}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-20px);}
+    60% {transform: translateY(-15px);}
+}
+
+@keyframes colorChange {
+  0% {color: #ff9966;}
+  50% {color: #ff5e62;}
+  100% {color: #ff9966;}
+}
+
+.embed-responsive-16by9 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
+  animation: fadeIn 2s;
+}
+
+p {
+  color: #666;
+  font-size: 20px;
+  animation: fadeIn 2s;
 }
