@@ -15,7 +15,7 @@ body {
   background-color: var(--background-color);
   min-height: 25vh;
   font-family: "Oswald", sans-serif;
-  font-size: 10rem;
+  font-size: 900%;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--text-color);
