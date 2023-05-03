@@ -34,7 +34,7 @@ function App() {
 
         <section className="section my-5" id="slides">
           <h2 className="display-4">Presentation Slides</h2>
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" title="Google Slides Presentation" rameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </section>
 
         <section className="section my-5" id="feedback">
@@ -98,8 +98,12 @@ function App() {
     </svg>
     <span>Keegan Choudary</span>
   </div>
+  <footer>
+    <br></br>
+  </footer>
 </div>
 
+<br></br>
       </main>
     </div>
   );
