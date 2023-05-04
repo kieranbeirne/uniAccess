@@ -86,7 +86,7 @@ people also be more aware of the accessibility of campus buildings."
       <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
        </filter>
     </svg>
-    <span  >Kieran Beirne</span>
+    <span>Kieran Beirne</span>
   </div>
 
   <div class="">
@@ -94,7 +94,7 @@ people also be more aware of the accessibility of campus buildings."
       <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
        </filter>
     </svg>
-    <span  >James Evans</span>
+    <span>James Evans</span>
   </div>
 </div>
 
@@ -104,7 +104,7 @@ people also be more aware of the accessibility of campus buildings."
       <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
        </filter>
     </svg>
-    <span  >Adidev Mohaptra</span>
+    <span>Adidev Mohaptra</span>
   </div>
 
   <div class="">
@@ -113,7 +113,7 @@ people also be more aware of the accessibility of campus buildings."
         
       </filter>
     </svg>
-    <span  >Sean Kelly</span>
+    <span >Sean Kelly</span>
   </div>
 </div>
 
@@ -121,7 +121,7 @@ people also be more aware of the accessibility of campus buildings."
   <div class="">
     <svg xmlns="http://www.w3.org/2000/svg">
     </svg>
-    <span  >Hunter Zacha</span>
+    <span >Hunter Zacha</span>
   </div>
 
   <div class="">
@@ -129,7 +129,7 @@ people also be more aware of the accessibility of campus buildings."
       <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
        </filter>
     </svg>
-    <span>Keegan Choudary</span>
+    <span>Keegan Choudhury</span>
   </div>
   <footer>
     <br></br>
