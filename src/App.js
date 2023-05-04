@@ -32,8 +32,7 @@ function App() {
    
     <div className="embed-responsive embed-responsive-16by9">
         <iframe
-            width="960"
-            height="569"
+            width="850" height="503"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="YouTube video player"
             frameBorder="0"
@@ -46,7 +45,7 @@ function App() {
 
         <section className="section my-5" id="slides">
           <h2 className="display-4">Presentation Slides</h2>
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" title="Google Slides Presentation" rameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" title="Google Slides Presentation" rameborder="0" width="850" height="503" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </section>
 
         <section className="section my-5" id="feedback">
