@@ -302,7 +302,7 @@ a {
 
 /* Blockquote CSS */
 blockquote {
-  border-left: 3px solid var(--color);
+  
   color: #1a1a1a;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1.25em;
@@ -316,56 +316,9 @@ blockquote {
   z-index: 0;
 }
 
-blockquote:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -4px;
-  height: 2em;
-  background-color: var(--background);
-  width: 5px;
-  margin-top: -1em;
-}
 
-blockquote:after {
-  content: "\f35f";
-  position: absolute;
-  top: 50%;
-  left: -0.5em;
-  color: var(--color);
-  font-family: "Ionicons";
-  font-style: normal;
-  line-height: 1em;
-  text-align: center;  text-indent: -2px;
-  width: 1em;
-  margin-top: -0.5em;
-  transition: .2s all ease-in-out, .4s transform ease-in-out;
-}
 
-blockquote.format:before,
-blockquote.format:after {
-  display: none;
-}
 
-blockquote.book:after {
-  content: "\f12e";
-}
-
-blockquote.podcast:after {
-  content: "\f32d";
-}
-
-blockquote.lyrics:after {
-  content: "\f333";
-}
-
-blockquote.favorite:after {
-  content: "\f384";
-}
-
-blockquote:active:after {
-  transform: rotateY(360deg);
-}
 
 cite {
   display: block;
