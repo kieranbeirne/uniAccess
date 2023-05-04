@@ -21,18 +21,18 @@ function App() {
 
       <main className="container-lg">
         <section className="section my-5" id="intro">
-          <h2 className="display-4">Introduction and Motivation</h2>
+          <h2 className="hr-lines">Introduction and Motivation</h2>
           <p>uniAccess is a crowd-sourced website fueled by self-reported data from students or individuals on campus to provide clarity on accessibility features available in each building on campus. This will allow users to easily identify challenges they may face traversing campus and plan for these situations accordingly. The purpose of the app is to raise awareness to the fact that some individuals need differing accommodations depending on their condition. Our group aims to be a small part of the solution by helping individuals with disabilities at A&M have an easier time navigating through the buildings. </p>
           
           <p>As students, we constantly experience individuals encountering roadblocks when maneuvering around campus whether it be a lack of a ramp for a wheelchair user, a quiet place to study for an individual with autism, and more. As we started development, one of our team member’s tore his ACL and had trouble finding information on the accessibility features available in each building, this made his day to day very inconvenient leading to frustration and wasted time. This further fueled our team’s mission to provide transparency on the ins and outs of campus so that no individual has to experience this type of inconvenience. </p>
         </section>
 
         <section className="section my-5" id="video">
-    <h2 className="display-4">YouTube Promotion Video</h2>
+    <h2 className="hr-lines">YouTube Promotion Video</h2>
+   
     <div className="embed-responsive embed-responsive-16by9">
         <iframe
-            width="960"
-            height="569"
+            width="850" height="503"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="YouTube video player"
             frameBorder="0"
@@ -45,7 +45,7 @@ function App() {
 
         <section className="section my-5" id="slides">
           <h2 className="display-4">Presentation Slides</h2>
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" title="Google Slides Presentation" rameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" title="Google Slides Presentation" rameborder="0" width="850" height="503" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </section>
 
         <section className="section my-5" id="feedback">
