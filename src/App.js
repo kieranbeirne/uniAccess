@@ -32,7 +32,7 @@ function App() {
    
     <div className="embed-responsive embed-responsive-16by9">
         <iframe
-            width="1100" height="695"
+            width="850" height="503"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="YouTube video player"
             frameBorder="0"
@@ -45,7 +45,7 @@ function App() {
 
         <section className="section my-5" id="slides">
           <h2 className="display-4"><a href = "https://www.canva.com/design/DAFhDICVFpU/g3fodieNIrscnk4UTJzIHA/edit?utm_content=DAFhDICVFpU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={{color:'black'}}>Presentation Slides</a></h2>
-          <iframe src="slides.pdf" title="Google Slides Presentation" rameborder="0" width="1100" height="695" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <iframe src="slides.pdf" title="Google Slides Presentation" rameborder="0" width="850" height="503" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </section>
 
         <section className="section my-5" id="feedback">
