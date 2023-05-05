@@ -32,7 +32,7 @@ function App() {
    
     <div className="embed-responsive embed-responsive-16by9">
         <iframe
-            width="850" height="503"
+            width="1100" height="695"
             src="https://www.youtube.com/embed/dQw4w9WgXcQ"
             title="YouTube video player"
             frameBorder="0"
@@ -44,8 +44,8 @@ function App() {
 
 
         <section className="section my-5" id="slides">
-          <h2 className="display-4">Presentation Slides</h2>
-          <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSLlnq4AtmNNqMJkUr2N1BJlDoxVeO-Iq9iHPn48lxCED27-xfvyLxrsWzDIedBt3Jr3agMAGodRV_z/embed?start=false&loop=false&delayms=30000" title="Google Slides Presentation" rameborder="0" width="850" height="503" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          <h2 className="display-4"><a href = "https://www.canva.com/design/DAFhDICVFpU/g3fodieNIrscnk4UTJzIHA/edit?utm_content=DAFhDICVFpU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" style={{color:'black'}}>Presentation Slides</a></h2>
+          <iframe src="slides.pdf" title="Google Slides Presentation" rameborder="0" width="1100" height="695" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
         </section>
 
         <section className="section my-5" id="feedback">
@@ -77,7 +77,7 @@ people also be more aware of the accessibility of campus buildings."
 
         <section className="section my-5" id="conclusion">
           <h2 className="display-4">Conclusion and Future Work</h2>
-          <p>Your content goes here...</p>
+          <p>In conclusion, our product, uniAccess, is a promising solution to addressing the issue of accessibility on campus, as it provides users with reliable information on each building’s accessibility features all in one place. Through the large amounts of feedback from our peers we were able to confirm the effectiveness of our solution while also highlighting the need for further style adjustments with the user interface itself. As we move forward, our team is going to focus on incorporating additional features and design modifications to enhance the user experience. One such addition will be a search function that allows users to find specific buildings that meet their needs instead of hunting through the accessibility information one-by-one. We are also planning on expanding the reach of the platform by incorporating data from other universities and institutions allowing us to increase our accessibility by deploying our product in these areas. Overall, we feel uniAccess is a small but very significant step towards creating an inclusive campus environment. By crowdsourcing and involving the community, uniAccess is transforming the way we approach accessibility information, empowering individuals and providing a sense of community in the ongoing effort to create a more inclusive environment.</p>
         </section>
 
         <div class="">
