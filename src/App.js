@@ -53,7 +53,7 @@ function App() {
           <h2 className="display-4">Key Insights from Peer Feedback</h2>
               <p>During the presentation of our prototype, the team did an excellent job of showcasing its features and functionalities. The clarity and precision with which we demonstrated the application's capabilities allowed the audience to grasp the value and potential impact of our solution. Here are some things we did well and some features we could have improved upon:</p>
               <blockquote>
-                "Colors do not contrast as much as promised"
+                "Colors do not contrast as much as promised."
                 <br></br>
                 
                 "Gray and black meshes in the prototype"
