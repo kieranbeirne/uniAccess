@@ -104,7 +104,7 @@ people also be more aware of the accessibility of campus buildings."
       <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
        </filter>
     </svg>
-    <span>Adidev Mohaptra</span>
+    <span>Adidev Mohapatra</span>
   </div>
 
   <div class="">
